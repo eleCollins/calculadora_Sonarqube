@@ -11,7 +11,7 @@ from herramientas.reporte_pdf import crear_pdf
 
 SERVIDOR = "https://sonarqube.lynvera.ai"
 # Debe coincidir con sonar.projectKey de sonar-project.properties.
-PROYECTO = "calculadora_sonarqube"
+PROYECTO = "team05_calculadora_elecollins"
 METRICAS = (
     "coverage,line_coverage,branch_coverage,lines_to_cover,uncovered_lines,"
     "bugs,vulnerabilities,code_smells,security_hotspots,ncloc,duplicated_lines_density,"

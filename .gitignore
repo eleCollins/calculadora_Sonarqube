@@ -222,3 +222,18 @@ __marimo__/
 # Resultados generados por las pruebas y el workflow
 reports/
 .scannerwork/
+
+# Artefactos descargados de GitHub Actions (gh run download)
+reportes/
+
+# Credenciales y tokens: nunca se guardan en el repositorio
+.env.*
+*.pem
+*.key
+*.token
+.sonar/
+
+# Archivos del sistema operativo y del editor
+.DS_Store
+.idea/
+.vscode/
